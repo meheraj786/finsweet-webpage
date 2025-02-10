@@ -54,6 +54,9 @@
     flex-direction: column;
     align-items: center;
   }
+  #projects  .right .img2:nth-child(1){
+    margin: 10px 0;
+  }
   #projects .row .left .pop a{
     display: none;
   }
@@ -135,7 +138,10 @@
     text-align: center;
     margin: 0 auto;
   }
-  #blog .col-lg-4 {
+  #blog .container h2{
+    margin-bottom: 64px;
+  }
+  #blog .col-xl-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +151,9 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+  }
+  #blog .blog-details h2{
+    margin-bottom: 0;
   }
   #footer .col-lg-5 p{
     text-align: start;
@@ -217,6 +226,9 @@
   #projects h2{
     font-size: 38px;
   }
+  #projects  .right .img2:nth-child(1){
+    margin: 10px 0;
+  }
   #projects .right{
     display: flex;
     flex-direction: column;
@@ -299,11 +311,16 @@
   #contact .right button{
     padding: 16px 100px;
   }
+  #blog .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #blog .container h2,p{
     text-align: center;
     margin: 0 auto;
   }
-  #blog .col-lg-4 {
+  #blog .col-xl-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +331,8 @@
     align-items: center;
     margin-bottom: 20px;
   }
-  #footer .col-lg-5 p{
+  
+  #footer .col-xl-5 p{
     text-align: start;
 
   }
@@ -377,6 +395,9 @@
   #projects h2{
     font-size: 38px;
   }
+    #projects  .right .img2:nth-child(1){
+    margin: 10px 0;
+  }
   #projects .right{
     display: flex;
     flex-direction: column;
@@ -459,15 +480,16 @@
   #contact .right button{
     padding: 16px 100px;
   }
-  #blog .container h2,p{
-    text-align: center;
-    margin: 0 auto;
-  }
-  #blog .col-lg-4 {
+  #blog .col-xl-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  #blog .container h2,p{
+    text-align: center;
+    margin: 0 auto;
+  }
+
   #blog .blog-details {
     display: flex;
     flex-direction: column;
@@ -496,8 +518,183 @@
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+  .bi-list{
+    color: white;
+    font-size: 40px;
+  }
+  #banner button{
+    padding: 12px 36px;
+  }
+  #banner h1{
+    font-size: 48px;
+  }
+  #banner a{
+    margin-left: 20px;
+  }
+  #banner .col-lg-7 img{
+    width: 100vw;
+    margin-top: 50px;
+  }
+  #feature .item{
+    text-align: center;
+  }
+  #work{
+    text-align: center;
+  }
+  #work .left p{
+    font-size: 16px;
+    margin: 20px auto;
+    width: 405px;
+  }
+  #work .right {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #work .right .item p{
+    line-height: 28px;
+    width: 303px;
+    margin: 0 auto;
+  }
+  #projects h2{
+    font-size: 38px;
+  }
+    #projects  .right .img2:nth-child(1){
+    margin: 10px 0;
+  }
+  #projects .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #projects .row .left .pop a{
+    display: none;
+  }
+  #projects .row .left .pop{
+    width: 396px;
+  color: white;
+  padding: 48px;
+  }
+  #projects .row .left .pop a{
+  display: block;
+  }
+  #projects .row .right .img2 .pop2{
+    width: 100%;
+    color: white;
+    height: 100%;
+    background: linear-gradient(145deg, #1C1E53, rgba(28, 30, 83, 0.425));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition-duration: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  #projects .row .right .img2 a{
+  display: block;
+  color: #FCD980;
+  }
+  #testimonial{
+    padding: 58px;
+    background: #F4F6FC;
+  }
+  #testimonial .left h2{
+    font-size: 28px;
+  }
+  #testimonial .left p{
+    margin-bottom: 20px;
+  }
+  #testimonial .right .carousel-item blockquote{
+    font-size: 22px;
+    line-height: 35px;
+  }
+  #faq{
+    padding-top: 128px;
+    height: 750px;
+  }
+  #contact .left {
+    background-image: url(../images/woman-writing-on-paper-3228878.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    padding-bottom: 200px;
+    color: white;
+    max-width: 656px;
+    position: relative;
+    z-index: 0;
+  }
+  #contact .left h2{
+    width: 464px;
+    margin: 0 auto;
+  }
+  #contact .right input{
+    padding: 18px 32px;
+    background: #1C1E53;
+    border-radius: 8px;
+    border: 1.5px solid hsla(0, 0%, 100%, 0.267);
+    margin-bottom: 16px;
+    max-width: 432px;
+  }
+  #contact .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact .right button{
+    padding: 16px 50px;
+  }
+  #blog .container h2,p{
+    text-align: center;
+    margin: 10px auto;
+  }
+  #blog .blog-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #blog .col-xl-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #blog .col-xl-4 h3{
+    font-size: 54px;
+  }
 
-  
+  #footer .col-lg-5 p{
+    text-align: start;
+
+  }
+  #footer .contact{
+    margin-bottom: 20px;
+  }
+  #footer .right p{
+    
+    text-align: start;
+    margin-left: 0px;
+  }
+  #footer .right{
+    margin-bottom: 20px;
+  }
+  #footer .footer-bottom{
+    padding: 22px 0;
+  }
+  nav .btn{
+    color: white;
+    padding: 16px 28px;
+    border-radius: 41px;
+    border: 2px solid #F4F6FC;
+    margin-left: 48px;
+  }
+  #banner a{
+    margin-left: 10px;
+  }
+  #banner a span{
+    margin: 0;
+  }
 
 }
 

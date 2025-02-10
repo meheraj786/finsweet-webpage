@@ -480,7 +480,7 @@ margin-bottom: 16px;
   margin-bottom: 64px;
 }
 
-#blog .col-lg-4 p{
+#blog .col-xl-4 p{
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
@@ -489,14 +489,14 @@ margin-bottom: 16px;
   margin-bottom: 16px;
 }
 
-#blog .col-lg-4 h2{
+#blog .col-xl-4 h2{
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
   color: #282938;
   margin-bottom: 0px;
 }
-#blog .col-lg-4 .p{
+#blog .col-xl-4 .p{
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
