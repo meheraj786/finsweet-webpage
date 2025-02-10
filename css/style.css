@@ -394,7 +394,7 @@ margin-bottom: 16px;
   z-index: 0;
 }
 #contact .left h2{
-  width: 464px;
+  max-width: 464px;
   font-size: 54px;
   font-weight: 600;
   line-height: 74px;

@@ -115,8 +115,9 @@
     z-index: 0;
   }
   #contact .left h2{
-    width: 464px;
-    margin: 0 auto;
+    /* max-width: 264px;
+    font-size: 44px; */
+    margin: 0 auto; 
   }
   #contact .right input{
     padding: 18px 32px;
@@ -132,7 +133,7 @@
     align-items: center;
   }
   #contact .right button{
-    padding: 16px 100px;
+    padding: 16px 30px;
   }
   #blog .container h2,p{
     text-align: center;
