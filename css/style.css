@@ -43,7 +43,7 @@ nav .btn{
 nav .btn:hover{
   color: #282938;
   background: #FCD980;
-  border: 1px solid #FCD980;
+  border: 2px solid #FCD980;
 }
 #banner{
   background: #1C1E53;
