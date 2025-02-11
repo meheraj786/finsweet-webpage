@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", serif;
+}
+html, body {
+  overflow-x: hidden;
+}
+ul li{
+  list-style-type: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+nav{
+  background: #1C1E53;
+  padding: 16px 0px !important;
+}
+ul .nav-link{
+  color: #F4F6FC;
+  margin-right: 32px;
+}
+
+ul .nav-link:hover{
+  color: #FCD980;
+}
+.active{
+  color: #ffff !important;
+  font-weight: 600;
+}
+
+nav .btn{
+  color: white;
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid #F4F6FC;
+  margin-left: 48px;
+}
+nav .btn:hover{
+  color: #282938;
+  background: #FCD980;
+  border: 2px solid #FCD980;
+}
+
+#footer{
+  padding-top: 96px;
+  background: #1C1E53;
+  color: white;
+}
+#footer .col-lg-5 p{
+  margin-top: 24px;
+}
+
+
+#footer .contact{
+  background: #FCD980;
+  color: #1B1C2B;
+  padding: 16px 37px;
+  margin-top: 86px;
+}
+#footer .contact .mail{
+margin-right: 29px;
+}
+#footer .contact h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #282938;
+}
+#footer .contact p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+  opacity: 80%;
+  margin-top: 0px;
+
+}
+
+#footer .right h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#footer .right p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 80%;
+  margin-top: 14px;
+  margin-bottom: 28px;
+  width: 399px;
+}
+#footer .right i{
+  margin-right: 27px;
+}
+
+#footer .footer-bottom{
+  background: white;
+  color: #282938;
+  padding: 32px 0;
+}
+#footer .footer-bottom ul li{
+  margin-right: 32px;
+}

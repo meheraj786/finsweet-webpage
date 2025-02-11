@@ -207,6 +207,9 @@ display: block;
   position: relative;
   max-width: 405px;
 }
+#projects .row .right .img2:last-child{
+  margin-left: 10px;
+}
 #projects .row .right .pop2{
   width: 100%;
   color: transparent;
