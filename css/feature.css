@@ -47,6 +47,45 @@ nav .btn:hover{
   border: 2px solid #FCD980;
 }
 
+#faq{
+  padding-top: 128px;
+  height: 550px;
+}
+#faq .left h2{
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #282938;
+  margin-bottom: 16px;
+}
+#faq .left a{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #2405F2;
+}
+
+
+#faq .right .accordion{
+  border: none !important;
+}
+
+#faq .right .accordion .accordion-item{
+  border: none !important;
+}
+
+#faq .right .accordion .accordion-item .accordion-header .accordion-button{
+  border: none !important;
+  background: transparent;
+}
+#faq .right .accordion .accordion-item .accordion-header .accordion-button span{
+  color: #2405F2;
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 59px;
+}
+
+
 #footer{
   padding-top: 96px;
   background: #1C1E53;
