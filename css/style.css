@@ -43,10 +43,16 @@ nav .btn{
   border: 2px solid #F4F6FC;
   margin-left: 48px;
 }
+nav .btn a{
+  color: white;
+}
 nav .btn:hover{
   color: #282938;
   background: #FCD980;
   border: 2px solid #FCD980;
+}
+nav .btn:hover a{
+  color: #282938;
 }
 #banner{
   background: #1C1E53;
@@ -67,12 +73,25 @@ nav .btn:hover{
   margin-bottom: 48px;
   max-width: 562px;
 }
+
+#banner a{
+  color: white;
+  margin-left: 40px;
+}
+#banner a span{
+  margin-left: 16px;
+}
 #banner button{
   background: #FCD980;
   color: #1B1C2B;
   padding: 16px 56px;
   border-radius: 41px;
   border: 1px solid #FCD980;
+  font-weight: 600;
+}
+#banner button a{
+  margin: 0 auto;
+  color: #1B1C2B;
   font-weight: 600;
 }
 #banner button:hover{
@@ -83,12 +102,8 @@ nav .btn:hover{
   border: 1px solid #FCD980;
   font-weight: 600;
 }
-#banner a{
+#banner button:hover a{
   color: white;
-  margin-left: 40px;
-}
-#banner a span{
-  margin-left: 16px;
 }
 #work{
   padding: 128px 0px;
