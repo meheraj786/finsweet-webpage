@@ -47,8 +47,147 @@ nav .btn:hover{
   border: 2px solid #FCD980;
 }
 
-#faq{
+#hero{
+  background: #1C1E53;
+  color: white;
+  padding: 126px 0px;
+
+}
+
+#hero h1{
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  max-width: 582px;
+}
+#hero p{
+  line-height: 28px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  max-width: 562px;
+}
+
+#hero button{
+  background: #FCD980;
+  color: #1B1C2B;
+  padding: 16px 56px;
+  border-radius: 41px;
+  border: 1px solid #FCD980;
+  font-weight: 600;
+}
+#hero button a{
+  margin: 0 auto;
+  color: #1B1C2B;
+  font-weight: 600;
+}
+#hero button:hover{
+  background: transparent;
+  color: white;
+  padding: 16px 56px;
+  border-radius: 41px;
+  border: 1px solid #FCD980;
+  font-weight: 600;
+}
+#hero button:hover a{
+  color: white;
+}
+
+#companies{
+  padding: 96px 0;
+}
+#companies h2{
+  color: #282938;
+  font-size: 38px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#companies p{
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 70%;
+}
+
+#benifits {
+  padding: 128px 0;
+  padding-bottom: 48px;
+  color: #282938;
+}
+#benifits h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  max-width: 630px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 47px;
+}
+#benifits .item {
+  max-width: 415px;
+  padding: 48px;
+  background: #F4F6FC;
+  box-shadow: 0px 4px 4px 0px hwb(0 0% 100% / 0.253);
+  cursor: pointer;
+}
+#benifits .item:hover {
+  box-shadow: 0px 15px 15px 0px hwb(0 0% 100% / 0.253);
+  transition: 0.5s;
+}
+#benifits .item h3 {
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+#benifits .item p {
+  line-height: 28px;
+  opacity: 70%;
+  max-width: 324px;
+}
+
+#support {
+  padding: 128px 0;
+
+}
+#revision{
+  background: #F4F6FC;
   padding-top: 128px;
+  padding-bottom: 128px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+#delivery{
+  background: rgba(252, 217, 128, 0.103);
+  padding-top: 128px;
+  padding-bottom: 128px;
+  margin-bottom: 0;
+}
+#supp{
+  padding-bottom: 128px;
+}
+#support p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+#support h2 {
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+  font-weight: 600;
+  margin: 16px 0;
+}
+#support .p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  font-weight: 400;
+  opacity: 70%;
+}
+
+
+#faq{
   height: 550px;
 }
 #faq .left h2{

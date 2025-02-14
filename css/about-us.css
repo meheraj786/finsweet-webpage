@@ -1,70 +1,330 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: "Poppins", serif;
 }
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
-ul li{
+ul li {
   list-style-type: none;
 }
-a{
+a {
   color: black;
   text-decoration: none;
 }
 
-nav{
-  background: #1C1E53;
+nav {
+  background: #1c1e53;
   padding: 16px 0px !important;
 }
-ul .nav-link{
-  color: #F4F6FC;
+ul .nav-link {
+  color: #f4f6fc;
   margin-right: 32px;
 }
 
-ul .nav-link:hover{
-  color: #FCD980;
+ul .nav-link:hover {
+  color: #fcd980;
 }
-.active{
+.active {
   color: #ffff !important;
   font-weight: 600;
 }
 
-nav .btn{
+nav .btn {
   color: white;
   padding: 16px 48px;
   border-radius: 41px;
-  border: 2px solid #F4F6FC;
+  border: 2px solid #f4f6fc;
   margin-left: 48px;
 }
-nav .btn:hover{
+nav .btn:hover {
   color: #282938;
-  background: #FCD980;
-  border: 2px solid #FCD980;
+  background: #fcd980;
+  border: 2px solid #fcd980;
 }
 
-#footer{
+#hero {
+  padding: 128px 0;
+}
+
+#hero p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #282938;
+}
+#hero h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #282938;
+  margin-top: 8px;
+  margin-bottom: 31px;
+}
+#hero .p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+  opacity: 70%;
+  width: 484px;
+}
+
+#goal .container .row {
+  padding: 80px 0;
+}
+#goal .container {
+  background: #f4f5f5;
+}
+#goal .left p {
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+#goal .left h2 {
+  color: #282938;
+  font-size: 36px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+#goal .left .p {
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+  opacity: 70%;
+}
+#goal .right h2 {
+  color: #282938;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+#goal .right p {
+  width: 515px;
+}
+#goal .right .p {
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 70%;
+}
+
+#process {
+  padding: 128px 0;
+}
+#process h2 {
+  color: #282938;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+#process .item .shape {
+  position: relative;
+}
+#process .item .shape img {
+  margin-left: 48px;
+}
+#process .item .shape::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #2405f2;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+}
+#process h3 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  color: #282938;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#process p {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 70%;
+}
+#mission {
+  padding: 128px 0;
+  background: #eef4fa;
+}
+#mission p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+#mission h2 {
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+  font-weight: 600;
+  margin: 16px 0;
+}
+#mission .p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  font-weight: 400;
+  opacity: 70%;
+}
+#mission .row:first-child {
+  margin-bottom: 96px;
+}
+
+#projects .row .right .img2:hover a {
+  display: block;
+  color: #fcd980;
+}
+#benifits {
+  padding: 128px 0;
+  padding-bottom: 48px;
+  color: #282938;
+}
+#benifits h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  max-width: 630px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 47px;
+}
+#benifits .item {
+  max-width: 415px;
+  padding: 48px;
+  background: #F4F6FC;
+  box-shadow: 0px 4px 4px 0px hwb(0 0% 100% / 0.253);
+  cursor: pointer;
+}
+#benifits .item:hover {
+  box-shadow: 0px 15px 15px 0px hwb(0 0% 100% / 0.253);
+  transition: 0.5s;
+}
+#benifits .item h3 {
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+#benifits .item p {
+  line-height: 28px;
+  opacity: 70%;
+  max-width: 324px;
+}
+
+#companies{
+  padding-bottom: 128px;
+}
+#companies h2{
+  color: #282938;
+  font-size: 38px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#companies p{
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 70%;
+}
+#team{
+  background: #F4F6FC;
+  padding: 128px 0;
+}
+#team h2{
+  color: #282938;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+#team .col-lg-2{
+  background: #ffff;
+  width: 296px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  cursor: pointer;
+}
+#team h3{
+  margin-top: 30px;
+  margin-bottom: 2px;
+  color: #1D2130;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#team .img{
+  position: relative;
+  width: 168px;
+  margin: 0 auto;
+}
+#team .pop{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 100%;
+  bottom: -100px;
+  padding-bottom: 28px;
+  width: 0%;
+  height: 0%;
+  display: none;
+  background: linear-gradient(0deg, #5239FA, #ffffff00);
+}
+#team .col-lg-2:hover .pop{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 100%;
+  bottom: 0px;
+  padding-bottom: 28px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #5239FA, #ffffff00);
+}
+#team .pop i{
+  color: white;
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 13px;
+}
+
+#footer {
   padding-top: 96px;
-  background: #1C1E53;
+  background: #1c1e53;
   color: white;
 }
-#footer .col-lg-5 p{
+#footer .col-lg-5 p {
   margin-top: 24px;
 }
 
-
-#footer .contact{
-  background: #FCD980;
-  color: #1B1C2B;
+#footer .contact {
+  background: #fcd980;
+  color: #1b1c2b;
   padding: 16px 37px;
   margin-top: 86px;
 }
-#footer .contact .mail{
-margin-right: 29px;
+#footer .contact .mail {
+  margin-right: 29px;
 }
 #footer .contact h3 {
   font-size: 18px;
@@ -79,15 +339,14 @@ margin-right: 29px;
   color: #282938;
   opacity: 80%;
   margin-top: 0px;
-
 }
 
-#footer .right h2{
+#footer .right h2 {
   font-size: 48px;
   font-weight: 600;
   line-height: 64px;
 }
-#footer .right p{
+#footer .right p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -96,15 +355,15 @@ margin-right: 29px;
   margin-bottom: 28px;
   width: 399px;
 }
-#footer .right i{
+#footer .right i {
   margin-right: 27px;
 }
 
-#footer .footer-bottom{
+#footer .footer-bottom {
   background: white;
   color: #282938;
   padding: 32px 0;
 }
-#footer .footer-bottom ul li{
+#footer .footer-bottom ul li {
   margin-right: 32px;
 }

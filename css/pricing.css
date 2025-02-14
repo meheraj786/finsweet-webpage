@@ -48,7 +48,6 @@ nav .btn:hover{
 }
 
 #faq{
-  padding-top: 128px;
   height: 550px;
 }
 #faq .left h2{
@@ -63,6 +62,165 @@ nav .btn:hover{
   font-weight: 500;
   line-height: 32px;
   color: #2405F2;
+}
+
+#plans{
+  padding: 128px 0;
+}
+#plans .details h1{
+  color: #282938;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#plans .details p{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  max-width: 562px;
+  margin: 0 auto;
+  opacity: 70%;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+#plans .col-lg-4{
+  width: 406px;
+  height: 745px;
+  background: #F4F6FC;
+  color: #282938;
+  border-radius: 12px;
+  padding-left: 48px;
+  padding-top: 64px;
+  padding-bottom: 62px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.226);
+  position: relative;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+#plans .price h2{
+  color: #282938;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#plans .price p{
+  color: #2405F2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 8px;
+}
+#plans h3{
+  color: #282938;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+#plans .p{
+  color: #282938;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 78px;
+}
+#plans ul{
+  margin-bottom: 79px;
+}
+#plans ul li{
+  margin-bottom: 20px;
+  color: #282938;
+  margin-left: 12px;
+  position: relative;
+}
+#plans ul li:after{
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 18px solid #97DAAD;
+  left: -42px;
+  top: 0;
+}
+
+#plans ul .disable{
+  position: relative;
+  opacity: 70%;
+}
+#plans ul .disable:after{
+  content: "";
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 18px solid #9A9CA1;
+  left: -42px;
+  top: 0;
+}
+#plans .col-lg-4:hover{
+  background: #1C1E53 ;
+  color: white;
+}
+#plans .col-lg-4:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.055);
+  top: -100px;
+  left: 0;
+  transition-duration: 1s;
+}
+#plans .col-lg-4:hover h2{
+  color: white ;
+}
+#plans .col-lg-4:hover p{
+  color: white ;
+}
+#plans .col-lg-4:hover .p{
+  color: white ;
+  opacity: 70%;
+}
+#plans .col-lg-4:hover h3{
+  color: white ;
+}
+#plans .col-lg-4:hover ul li{
+  color: white ;
+}
+
+#plans .col-lg-4:hover:before{
+  left: 0;
+  top: -300px;
+  height: 100%;
+}
+#plans .col-lg-4:hover button{
+  color: #282938;
+  background: #FCD980;
+  border: 2px solid #FCD980;
+}
+
+#plans button{
+  color: white;
+  padding: 16px 48px;
+  border-radius: 41px;
+  background: #282938;
+  border: 2px solid #282938;
+  margin-left: 48px;
+}
+
+#plans .col-lg-4:hover  button:hover{
+  color: white;
+  padding: 16px 48px;
+  border-radius: 41px;
+  background: transparent;
+  border: 2px solid #FCD980;
 }
 
 
