@@ -47,6 +47,67 @@ nav .btn:hover{
   border: 2px solid #FCD980;
 }
 
+#title h1{
+  color: #282938;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  width: 949px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+#title p{
+  color: #282938;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  opacity: 87%;
+}
+#work{
+  padding-top: 96px;
+}
+#work h2{
+  font-size: 38px;
+  color: #282938;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+#work p{
+  font-size: 16px;
+  color: #282938;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+  opacity: 70%;
+}
+#work .p{
+  font-size: 16px;
+  color: #282938;
+  font-weight: 400;
+  line-height: 28px;
+  margin:0 0;
+  opacity: 70%;
+}
+#work ul{
+  margin: 24px 0;
+  color: #282938;
+  opacity: 70%;
+}
+#work ul li{
+  margin: 0 16px;
+  color: #282938;
+  opacity: 70%;
+}
+#work ul li:first-child{
+  color: #2405F2;
+  opacity: 70%;
+}
+
+
 #footer{
   padding-top: 96px;
   background: #1C1E53;
