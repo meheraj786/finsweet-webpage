@@ -46,26 +46,65 @@ nav .btn:hover{
   background: #FCD980;
   border: 2px solid #FCD980;
 }
+nav .btn a{
+  color: white;
+}
+nav .btn:hover{
+  color: #282938;
+  background: #FCD980;
+  border: 2px solid #FCD980;
+}
+nav .btn:hover a{
+  color: #282938;
+}
 
-#title h1{
-  color: #282938;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 64px;
-  width: 949px;
-  margin: 0 auto;
-  margin-bottom: 16px;
+#hero{
+  padding-top: 96px;
 }
-#title p{
-  color: #282938;
-  font-weight: 500;
+#hero p{
   font-size: 16px;
+  font-weight: 500;
   line-height: 28px;
-  margin-bottom: 48px;
-  opacity: 87%;
+  opacity: 70%;
+  color: #282938;
 }
+#hero h1{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  color: #282938;
+}
+#hero .p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 70%;
+  color: #282938;
+  width: 733px;
+  margin: 0 auto;
+}
+
+#hero .icon{
+  margin-top: 32px;
+}
+#hero .icon i{
+  margin: 0 14px;
+}
+
+
 #work{
   padding-top: 96px;
+}
+#work .col-lg-6{
+  margin-bottom: 64px;
+}
+#work .col-lg-6:last-child{
+  margin-bottom: 0px;
+}
+#work .col-lg-6:nth-child(5){
+  margin-bottom: 0px;
 }
 #work h2{
   font-size: 38px;
@@ -94,17 +133,18 @@ nav .btn:hover{
 }
 #work ul{
   margin: 24px 0;
+  margin-bottom: 48px;
   color: #282938;
   opacity: 70%;
 }
-#work ul li{
+#work ul li a{
   margin: 0 16px;
   color: #282938;
   opacity: 70%;
 }
-#work ul li:first-child{
+#work ul li:first-child a{
   color: #2405F2;
-  opacity: 70%;
+  opacity: 100%;
 }
 
 
@@ -115,6 +155,44 @@ nav .btn:hover{
 }
 #footer .col-lg-5 p{
   margin-top: 24px;
+}
+#contact{
+  padding: 128px;
+}
+
+#contact h2{
+  margin: auto;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+  width: 730px;
+}
+
+#contact p{
+  font-size: 16px;
+  color: #282938;
+  font-weight: 500;
+  margin: auto;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  opacity: 70%;
+  width: 562px;
+}
+#contact button{
+  padding: 16px 67px;
+  background: #FCD980;
+  color: #282938;
+  border-radius: 41px;
+  border: 2px solid #FCD980;
+}
+#contact button:hover{
+  padding: 16px 67px;
+  background: #1C1E53;
+  color: #FCD980;
+  border-radius: 41px;
+  border: 2px solid #FCD980;
 }
 
 
