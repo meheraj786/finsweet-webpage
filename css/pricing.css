@@ -97,6 +97,8 @@ nav .btn:hover{
   position: relative;
   transition-duration: 1s;
   overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
 }
 
 #plans .price h2{
@@ -177,6 +179,7 @@ nav .btn:hover{
   bottom: -100px;
   left: 0;
   transition-duration: 1s;
+  z-index: -1;
 }
 #plans .col-lg-4:hover h2{
   color: white ;
@@ -199,6 +202,7 @@ nav .btn:hover{
   left: 0;
   bottom: -500px;
   height: 100%;
+
 }
 #plans .col-lg-4:hover button{
   color: #282938;
