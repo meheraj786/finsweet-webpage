@@ -46,6 +46,113 @@ nav .btn:hover{
   background: #FCD980;
   border: 2px solid #FCD980;
 }
+nav .btn{
+  color: white;
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid #F4F6FC;
+  margin-left: 48px;
+}
+nav .btn a{
+  color: white;
+}
+nav .btn:hover{
+  color: #282938;
+  background: #FCD980;
+  border: 2px solid #FCD980;
+}
+nav .btn:hover a{
+  color: #282938;
+}
+
+#study{
+  padding-top: 128px;
+}
+
+#study h1{
+  width: 949px;
+  margin: 0 auto;
+  color: #282938;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+#study p{
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  opacity: 87%;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+#study .p{
+  color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  width: 831px;
+  margin:  auto;
+  opacity: 70%;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+#study a{
+  color: #2405F2;
+  font-size: 16px;
+  line-height: 28px;
+  margin:  auto;
+  opacity: 70%;
+}
+#study p b{
+  opacity: 100%;
+}
+
+
+
+
+#blog{
+  padding: 128px 0;
+}
+
+#blog .container h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+  margin-bottom: 64px;
+}
+
+#blog .col-lg-4{
+  margin-bottom: 64px;
+}
+
+#blog .col-lg-4 p{
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #282938;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+#blog .col-lg-4 h2{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #282938;
+  margin-bottom: 0px;
+}
+#blog .col-lg-4 .p{
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #282938;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  opacity: 70%;
+  width: 405px;
+}
 
 #footer{
   padding-top: 96px;
