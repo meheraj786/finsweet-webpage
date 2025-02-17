@@ -46,6 +46,17 @@ nav .btn:hover{
   background: #FCD980;
   border: 2px solid #FCD980;
 }
+nav .btn a{
+  color: white;
+}
+nav .btn:hover{
+  color: #282938;
+  background: #FCD980;
+  border: 2px solid #FCD980;
+}
+nav .btn:hover a{
+  color: #282938;
+}
 
 #faq{
   height: 550px;
